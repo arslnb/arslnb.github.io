@@ -1,0 +1,65 @@
+body {
+  background: #FAFAFA;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+}
+
+.center{
+    max-width: 660px;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
+header{
+    text-align: center;
+    margin: 30px 0px 60px 0px;
+}
+
+section{
+    margin-bottom: 30px;
+}
+
+h1, h2 {
+    margin: 0px;
+}
+
+h1{
+    font-size: 52px;
+    color: #222;
+}
+
+h2 {
+    font-size: 14px;
+    font-weight: 400;
+    color: #444;
+}
+
+p, li{
+    font-size: 16px;
+    line-height: 32px;
+    color: #333;
+}
+
+p strong{
+    font-size: 24px;
+    font-weight: 600;
+    color: #222;
+}
+
+a{
+    background-color: #3c40c6;
+    padding: 1px 4px;
+    color: #FFF;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+mark{
+    background-color: #3c40c6;
+    padding: 1px 4px;
+}
+
+mark a{
+    color: #FFF;
+    font-weight: 400;
+    text-decoration: none;
+}
