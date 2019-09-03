@@ -1,65 +1,88 @@
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html {
+  background: #000;
+}
+
+.center {
+  width: 910px;
+  margin: 0 auto;
+}
+
 body {
-  background: #FAFAFA;
-  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  background: #fff;
+  border: 30px #000 solid;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+  padding-bottom: 150px;
 }
 
-.center{
-    max-width: 660px;
-    margin: 0 auto;
-    margin-top: 40px;
+.parent {
+  display: grid;
+  grid-template-columns: 0.9fr 0.2fr 0.5fr;
+  grid-template-rows: 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  max-width: 900px;
+  margin: 0 auto;
 }
 
-header{
-    text-align: center;
-    margin: 30px 0px 60px 0px;
+h1 {
+  color: #000;
+  font-size: 200px;
+  line-height: 170px;
+  margin: 100px 0px;
+  font-weight: 700;
+  opacity: 1;
 }
 
-section{
-    margin-bottom: 30px;
+h3 {
+  color: #000;
+  font-size: 20px;
+  line-height: 17px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  font-weight: 700;
+  opacity: 0.8;
 }
 
-h1, h2 {
-    margin: 0px;
+.paragraph p {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 34px;
+  color: #2b2b2b;
+  padding-bottom: 25px;
 }
 
-h1{
-    font-size: 52px;
-    color: #222;
+.paragraph p span {
+  color: rgb(199, 199, 199);
 }
 
-h2 {
-    font-size: 14px;
-    font-weight: 400;
-    color: #444;
+.paragraph p a {
+  color: rgb(31, 31, 31);
+  text-decoration: none;
+  padding: 0px 1px 1px 1px;
+  font-weight: 600;
+  border-bottom: 3px rgb(31, 31, 31) solid;
 }
 
-p, li{
-    font-size: 16px;
-    line-height: 32px;
-    color: #333;
+.links .list li {
+  padding: 10px 0px;
 }
 
-p strong{
-    font-size: 24px;
-    font-weight: 600;
-    color: #222;
+.links .list li a {
+  color: rgb(31, 31, 31);
+  text-decoration: underline;
+  font-weight: 600;
 }
 
-a{
-    background-color: #3c40c6;
-    padding: 1px 4px;
-    color: #FFF;
-    font-weight: 400;
-    text-decoration: none;
-}
-
-mark{
-    background-color: #3c40c6;
-    padding: 1px 4px;
-}
-
-mark a{
-    color: #FFF;
-    font-weight: 400;
-    text-decoration: none;
+.links .list li p {
+  padding-top: 5px;
+  font-size: 0.8rem;
+  line-height: 1.3rem;
+  opacity: 0.5;
 }
